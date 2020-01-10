@@ -4,7 +4,7 @@
   "description": "This is a sample edge microservice.",
   "main": "index.js",
   "scripts": {
-    "package": "node ./node_modules/edge-ms-packager/index.js",
+    "package": "node ./node_modules/@mimik/edge-ms-packager/index.js",
     "build": "node ./node_modules/webpack/bin/webpack.js --progress --colors --config webpack.config.js"
   },
   "author": "mimik",
