@@ -43,4 +43,4 @@ curl -i -H 'Authorization: Bearer <edge Access Token>' -F "image=@<file name>.ta
 curl -i -H 'Authorization: Bearer <edge Access Token>' -d '{"name": <file name>, "image": <image name>, "env": {"MCM.BASE_API_PATH": "<request base path>", "MCM.WEBSOCKET_SUPPORT": "true", "<add your environment variable name>": "<add your environment variable>"} }' http://<target IP address>:8083/mcm/v1/containers
 ```
 
-- For more information and explanation, you can visit our [mCM container management API references](https://developer.mimik.com/resources/documentation/latest/apis/mcm) and [general guide on packaing, deployment, and exporting microservice](https://developer.mimik.com/resources/documentation/latest/deploy/build).
+- For more information and explanation, you can visit our [mCM container management API references](https://developer.mimik.com/resources/documentation/latest/apis/mcm) and [general guide on packaging, deployment, and exporting microservice](https://developer.mimik.com/resources/documentation/latest/deploy/build).
