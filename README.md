@@ -6,7 +6,7 @@ This is a starter microservice that allows you to start developing edge microser
 # How to use it?
 ---
 
-#### If this is your first time developing edge microservice, please follow the edge microservice development quick start guide from [mimik's developer portal](https://developer.mimik.com/resources/documentation/latest/getting-started/quick-start).
+#### If this is your first time developing edge microservice, please follow the edge microservice development quick start guide from [mimik's developer portal](https://developer.mimik.com/quickstart).
 
 #### Before you use, you need to build the microservice and later deploy it to edgeSDK.
 
@@ -43,4 +43,4 @@ curl -i -H 'Authorization: Bearer <edge Access Token>' -F "image=@<file name>.ta
 curl -i -H 'Authorization: Bearer <edge Access Token>' -d '{"name": <file name>, "image": <image name>, "env": {"MCM.BASE_API_PATH": "<request base path>", "MCM.WEBSOCKET_SUPPORT": "true", "<add your environment variable name>": "<add your environment variable>"} }' http://<target IP address>:8083/mcm/v1/containers
 ```
 
-- For more information and explanation, you can visit our [mCM container management API references](https://developer.mimik.com/resources/documentation/latest/getting-started/quick-start) and [general guide on packaing, deployment, and exporting microservice](https://developer.mimik.com/resources/documentation/latest/apis/mcm).
+- For more information and explanation, you can visit our [mCM container management API references](https://developer.mimik.com/resources/documentation/latest/apis/mcm) and [general guide on packaing, deployment, and exporting microservice](https://developer.mimik.com/resources/documentation/latest/deploy/build).
